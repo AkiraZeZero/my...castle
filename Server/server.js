@@ -1,6 +1,5 @@
 const express = require("express")
 const cors = require("cors")
-const path = require("path")
 const app = express()
 
 
@@ -20,4 +19,4 @@ app.get(`/js`, getJavaScript)
 
 const port = process.env.PORT || 4000
 
-app.listen(4000, console.log("Server is running on port 4000"))
+app.listen(port, console.log("Server is running on port 4000"))
