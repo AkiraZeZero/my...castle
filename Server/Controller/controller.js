@@ -6,6 +6,6 @@ module.exports = {
         res.sendFile(path.join(__dirname, `../client/styles`))
     },
     getJavaScript: (req, res) => {
-        res.sendFile(path.join(__dirname, `../../client`))
+        res.sendFile(path.join(__dirname, `../../client/index.html`))
     }
 }

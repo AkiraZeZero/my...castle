@@ -4,7 +4,7 @@ const path = require("path")
 const app = express()
 
 
-const { getHomePage, getCSS } = require(`./Controller/controller.js`)
+const { getHomePage, getCSS, getJavaScript } = require(`./Controller/controller`)
 
 
 app.use(cors())
